@@ -7,7 +7,7 @@ int main(void)
 {
 	int arr[] = {95, 112, 177, 116, 99, 104, 97, 114};
 
-	int arrSize = sizeof(arr) / size(int);
+	int arrSize = sizeof(arr) / sizeof(int);
 
 	int i;
 
